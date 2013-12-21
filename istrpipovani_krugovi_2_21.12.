@@ -1,0 +1,10 @@
+void setup() {
+  size(500,400);
+  background(190,250,0);
+}
+
+void draw() {
+  stroke(255,mouseX,0);
+  fill(190,250,mouseX);
+  ellipse(mouseX, mouseY, 100, mouseX);
+}
